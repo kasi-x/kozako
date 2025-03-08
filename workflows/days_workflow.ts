@@ -10,7 +10,7 @@ import { DaysFunctionDefinition } from "../functions/days_function.ts";
  */
 const DaysWorkflow = DefineWorkflow({
   callback_id: "days_workflow",
-  title: "月の日付表示",
+  title: "kozako",
   description: "選択した月のすべての日付を個別のメッセージとして表示します",
   input_parameters: {
     properties: {

@@ -10,7 +10,7 @@ import DaysWorkflow from "../workflows/days_workflow.ts";
  */
 const daysTrigger: Trigger<typeof DaysWorkflow.definition> = {
   type: TriggerTypes.Shortcut,
-  name: "月の日付表示",
+  name: "kozako",
   description: "選択した月のすべての日付を個別のメッセージとして表示します",
   workflow: `#/workflows/${DaysWorkflow.definition.callback_id}`,
   inputs: {
